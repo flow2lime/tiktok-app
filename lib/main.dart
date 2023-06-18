@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:tiktok_app/features/authentication/widgets/sign_up_screen.dart';
+import 'package:tiktok_app/features/authentication/sign_up_screen.dart';
 
 import 'constants/sizes.dart';
 

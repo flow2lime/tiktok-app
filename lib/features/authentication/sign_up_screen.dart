@@ -2,9 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:tiktok_app/constants/gaps.dart';
 import 'package:tiktok_app/constants/sizes.dart';
+import 'package:tiktok_app/features/authentication/login_screen.dart';
 import 'package:tiktok_app/features/authentication/username_screen.dart';
 import 'package:tiktok_app/features/authentication/widgets/auth_button.dart';
-import 'package:tiktok_app/features/authentication/widgets/login_screen.dart';
 
 class SignUpScreen extends StatelessWidget {
   const SignUpScreen({super.key});
