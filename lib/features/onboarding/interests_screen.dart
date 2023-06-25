@@ -62,11 +62,14 @@ class _InterestsScreenState extends State<InterestsScreen> {
   void _onScroll() {
     if (_scrollController.offset > 100) {
       if (_showTitle) return;
-      _showTitle = true;
+      setState(() {
+        _showTitle = true;
+      });
     } else {
-      _showTitle = false;
+      setState(() {
+        _showTitle = false;
+      });
     }
-    setState(() {});
   }
 
   void _onNextTap() {
